@@ -1,5 +1,5 @@
 /**
- * 最小二乗法のサンプル
+ * 線形回帰サンプル
  * 参考 : http://gihyo.jp/dev/serial/01/machine-learning/0011?page=1&ard=1400930362 
  */
 
@@ -102,5 +102,5 @@ func main() {
 	p.Y.Label.Text = "Y"
 	addLine(p, xlist, ylist)
 	addPoints(p, vec_x, vec_t)
-	p.Save(4, 4, "least_square_sample_01.png")
+	p.Save(4, 4, "linear_regression_sample_01.png")
 }
